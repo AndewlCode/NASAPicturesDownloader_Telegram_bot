@@ -8,8 +8,8 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.io.IOException;
 
 public class TelegramBot extends TelegramLongPollingBot {
-    public static final String BOT_TOKEN = "5968666074:AAEnRe8Fk3W4qx4hGuuV0-SjYHPLqFsOgls"; // Telegram Bot Token
-    public static final String BOT_USERNAME = "NASAPicturesDownloader_bot"; // Telegram Bot Username
+    public static final String BOT_TOKEN = ""; // Telegram Bot Token
+    public static final String BOT_USERNAME = ""; // Telegram Bot Username
     public static final String URL = "https://api.nasa.gov/planetary/apod?api_key="; // NASA API KEY NEEDED
 
     public TelegramBot() throws TelegramApiException {
